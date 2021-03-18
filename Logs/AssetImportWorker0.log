@@ -1,0 +1,151 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.5f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/matt/Documents/unity-cookbook-2018-ch04-09_reverb_zones_simulate_tunnel
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55600
+Successfully changed project path to: /Users/matt/Documents/unity-cookbook-2018-ch04-09_reverb_zones_simulate_tunnel
+/Users/matt/Documents/unity-cookbook-2018-ch04-09_reverb_zones_simulate_tunnel
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 29.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.5f1 (e2c53f129de5)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/matt/Documents/unity-cookbook-2018-ch04-09_reverb_zones_simulate_tunnel/Assets
+GfxDevice: creating device client; threaded=0
+2021-03-18 18:40:28.381 Unity[4701:405242] iMac preferred device: AMD Radeon Pro 560X (high power)
+2021-03-18 18:40:28.384 Unity[4701:405242] Metal devices available: 2
+2021-03-18 18:40:28.385 Unity[4701:405242] 0: AMD Radeon Pro 560X (high power)
+2021-03-18 18:40:28.385 Unity[4701:405242] 1: Intel(R) UHD Graphics 630 (low power)
+2021-03-18 18:40:28.386 Unity[4701:405242] Using device AMD Radeon Pro 560X (high power)
+Initializing Metal device caps: AMD Radeon Pro 560X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56701
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.006389 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 24.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.317 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000339 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.923 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.1 MB.
+System memory in use after: 110.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1550.
+Total: 1.784147 ms (FindLiveObjects: 0.163127 ms CreateObjectMapping: 0.038061 ms MarkObjects: 1.512249 ms  DeleteObjects: 0.069437 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/completed_project_scene/reverbScene - completed.unity
+  artifactKey: Guid(5b1822a3520714ce484bfa50d6b14db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/completed_project_scene/reverbScene - completed.unity using Guid(5b1822a3520714ce484bfa50d6b14db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3790d33bd50c79fd483f1a764945a0') in 0.011175 seconds
+  Import took 0.013038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.171034 seconds.
+  path: Assets/ReverbZones/_Scripts/SmoothFollow.js
+  artifactKey: Guid(885b1972ad11a921d000d37b8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReverbZones/_Scripts/SmoothFollow.js using Guid(885b1972ad11a921d000d37b8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f233962f66ba056562ded6e21a2852') in 0.265987 seconds
+  Import took 0.267930 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000330 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.852 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.5 MB.
+System memory in use after: 114.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1553.
+Total: 1.689321 ms (FindLiveObjects: 0.202783 ms CreateObjectMapping: 0.040747 ms MarkObjects: 1.426975 ms  DeleteObjects: 0.017755 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.572122 seconds.
+  path: Assets/completed_project_scene/reverbScene - completed.unity
+  artifactKey: Guid(5b1822a3520714ce484bfa50d6b14db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/completed_project_scene/reverbScene - completed.unity using Guid(5b1822a3520714ce484bfa50d6b14db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51531db79386848e9d01815c724fdc87') in 0.011749 seconds
+  Import took 0.013808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.936225 seconds.
+  path: Assets/completed_project_scene/reverbScene - completedSettings.lighting
+  artifactKey: Guid(c9343a6a9bb024fbb8fe5ea1c92de0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/completed_project_scene/reverbScene - completedSettings.lighting using Guid(c9343a6a9bb024fbb8fe5ea1c92de0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'ffd948f2ae8588580a2fc178fb6bdd3c') in 0.263231 seconds
+  Import took 0.265213 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000314 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.815 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.7 MB.
+System memory in use after: 119.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1555.
+Total: 1.481992 ms (FindLiveObjects: 0.141661 ms CreateObjectMapping: 0.035636 ms MarkObjects: 1.289262 ms  DeleteObjects: 0.014341 ms)
+
